@@ -1,0 +1,39 @@
+body{
+  background: #7CCCE5;
+font-family: Open Sans;
+  }
+
+.menu{
+  background-color: #FDE47F;
+  }
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.menu li {
+  list-style: none;  
+}
+
+a{
+  text-decoration: none;
+  color: #E04644;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+
+.site-title{
+  text-align:center;
+  color: whitesmoke;
+  font-size: 60px;
+}
+
+.site-sub{
+  font-size:25px;
+  color: #E04644;
+  text-align: center;
+ }
