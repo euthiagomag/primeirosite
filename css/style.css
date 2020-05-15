@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #4ECDC4;
+font-family: Open Sans;
+font-size: 15px;
+
+}
+ header{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ /* se a tela tiver 400px vai carregar estes estilos*/
+
+@media (min-width: 400px) {
+  body{
+    font-size: 15px;
+  }
+
+}
+
+.menu{
+  background-color:#FFFFFF;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+
+
+  }
+
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.menu li {
+  list-style: none;  
+}
+
+.menu a {
+  
+  display: block;
+  padding: 10px 15px;
+
+}
+
+a{
+  text-decoration: none;
+  color: #033649;
+}
+a:hover{
+  text-decoration:none;
+}
+
+
+.site-title{
+  text-align:center;
+  color: #033649;
+  font-size: 50px;
+font-family: 'Quicksand', sans-serif;
+}
+
+.site-sub{
+  font-size:25px;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 2.0em;
+ }
+
+ .minha{
+  display: block;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  margin-top: 40px;
+
+ }
+
+
+   
+
+ .portifolio h2{
+font-family: 'Kreon', serif;
+margin-bottom: 1em;
+font-size: 50px;
+text-align: center; 
+}
+
+ .portifolio .grid{
+padding: 2em;
+
+ }
+
+ .portifolio .grid{
+  display: grid;
+  grid-gap: 7.2em;
+  
+
+ 
+  
+}
+
+@media(min-width: 637px) {
+  .portifolio .grid{
+  grid-template-columns: 240px 240px;
+}
+
+} 
+
+@media(min-width: 880px) {
+  .portifolio .grid{
+  grid-template-columns: 240px 240px  240px;
+ 
+}
+
+} 
+
+@media(min-width: 1033px) {
+  .portifolio .grid{
+  grid-template-columns: 240px 240px  240px 240px;
+  
+}
+
+} 
+
+
+.portifolio figure{
+  text-align: center;
+  height: 40vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ }
+
+ .img-portfolio{
+  height: 240px;
+  width: 240px;
+ background-color: white;
+ padding: 50px;
+border-radius: 45px;
+display: block;
+  
+ 
+}
+
+ @media(min-width: 360px){
+
+.img-portfolio{
+  height: 240px;
+  width: 240px;
+  object-fit: cover; 
+ object-position: center;
+
+
+ }
+.portifolio figcaption{
+  font-size: 20px;
+  color: #033649;
+  font-weight:700;
+display: block;
+margin-top: 20px;
+margin: 30px  20px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
